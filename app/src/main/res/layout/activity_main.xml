@@ -9,7 +9,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/designer_workplace"
+        app:srcCompat="@drawable/backgroundgreen"
         android:scaleType="centerCrop" />
 
     <!-- เนื้อหาด้านหน้า -->
@@ -19,8 +19,7 @@
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp"
-        android:background="@android:color/white"
-        android:alpha="0.9"
+        android:background="@drawable/rounded_background"
         android:layout_margin="16dp"
         android:elevation="4dp">
 
@@ -30,13 +29,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
-            android:background="@color/white"
-            android:elevation="6dp"
             android:gravity="center"
             android:padding="8dp"
-            android:paddingHorizontal="24dp"
             android:text="ทำนายราคาของแล็ปท็อป"
-            android:textColor="@color/black"
+            android:textColor="@android:color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -46,7 +42,8 @@
             android:layout_height="wrap_content"
             android:hint="ความเร็วของโปรเซสเซอร์ (GHz)"
             android:inputType="numberDecimal"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_background" />
 
         <EditText
             android:id="@+id/et_ram_size"
@@ -54,7 +51,8 @@
             android:layout_height="wrap_content"
             android:hint="ขนาด RAM (GB)"
             android:inputType="number"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_background" />
 
         <EditText
             android:id="@+id/et_storage_capacity"
@@ -62,7 +60,8 @@
             android:layout_height="wrap_content"
             android:hint="ความจุของที่จัดเก็บ (GB)"
             android:inputType="number"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_background" />
 
         <EditText
             android:id="@+id/et_screen_size"
@@ -70,7 +69,8 @@
             android:layout_height="wrap_content"
             android:hint="ขนาดหน้าจอ (นิ้ว)"
             android:inputType="numberDecimal"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_background" />
 
         <EditText
             android:id="@+id/et_weight"
@@ -78,7 +78,8 @@
             android:layout_height="wrap_content"
             android:hint="น้ำหนัก (กิโลกรัม)"
             android:inputType="numberDecimal"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_background" />
 
         <Button
             android:id="@+id/btn_predict"
